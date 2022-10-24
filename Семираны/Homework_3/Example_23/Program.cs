@@ -21,7 +21,7 @@ void cubeOfNumbers(int number)
 {
     
     int count = 1;
-    while (count < number)
+    while (count <= number)
     {
         Console.Write($"{Math.Pow(count,3)}, ");
         count++;
